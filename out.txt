@@ -1,0 +1,142 @@
+result = 18779
+
+key= 0 	 Calc: 65 * 256 + (224 - 65 - 27) * 16 + 27 				 Label: 11010011 * 1011001 
+
+key= 1 	 Calc: 3 * 16 + (8 - 3 - 1) * 4 + 1 				 Label: 1101 * 101 
+
+key= 2 	 Calc: 12 * 16 + (20 - 12 - 0) * 4 + 0 				 Label: 10000 * 1110 
+
+key= 3 	 Calc: 0 * 16 + (9 - 0 - 3) * 4 + 3 				 Label: 11 * 1001 
+
+key= 4 	 Calc: 0 * 4 + (2 - 0 - 1) * 2 + 1 				 Label: 11 * 1 
+
+key= 5 	 Calc: 2 * 4 + (2 - 2 - 0) * 2 + 0 				 Label: 100 * 10 
+
+key= 6 	 Calc: 0 * 4 + (1 - 0 - 1) * 2 + 1 				 Label: 1 * 1 
+
+key= 7 	 Calc: 2 * 4 + (4 - 2 - 0) * 2 + 0 				 Label: 100 * 11 
+
+key= 8 	 Calc: 4 * 4 + (6 - 4 - 0) * 2 + 0 				 Label: 100 * 101 
+
+key= 9 	 Calc: 0 * 4 + (0 - 0 - 0) * 2 + 0 				 Label: 0 * 10 
+
+key= 10 	 Calc: 0 * 4 + (0 - 0 - 0) * 2 + 0 				 Label: 0 * 10 
+
+key= 11 	 Calc: 1 * 4 + (4 - 1 - 1) * 2 + 1 				 Label: 11 * 11 
+
+key= 12 	 Calc: 0 * 4 + (2 - 0 - 1) * 2 + 1 				 Label: 11 * 1 
+
+key= 13 	 Calc: same 				 Label: 1 * 0 
+
+key= 14 	 Calc: 0 * 4 + (1 - 0 - 0) * 2 + 0 				 Label: 10 * 1 
+
+key= 15 	 Calc: same 				 Label: 1 * 1 
+
+key= 16 	 Calc: 0 * 4 + (1 - 0 - 0) * 2 + 0 				 Label: 10 * 1 
+
+key= 17 	 Calc: 0 * 4 + (1 - 0 - 0) * 2 + 0 				 Label: 10 * 1 
+
+key= 18 	 Calc: same 				 Label: 0 * 0 
+
+key= 19 	 Calc: same 				 Label: 0 * 0 
+
+key= 20 	 Calc: same 				 Label: 1 * 1 
+
+key= 21 	 Calc: same 				 Label: 1 * 1 
+
+key= 22 	 Calc: 0 * 4 + (1 - 0 - 0) * 2 + 0 				 Label: 10 * 1 
+
+key= 23 	 Calc: 1 * 4 + (1 - 1 - 0) * 2 + 0 				 Label: 10 * 10 
+
+key= 24 	 Calc: same 				 Label: 0 * 1 
+
+key= 25 	 Calc: 1 * 4 + (1 - 1 - 0) * 2 + 0 				 Label: 10 * 10 
+
+key= 26 	 Calc: 1 * 4 + (2 - 1 - 0) * 2 + 0 				 Label: 10 * 11 
+
+key= 27 	 Calc: same 				 Label: 0 * 1 
+
+key= 28 	 Calc: same 				 Label: 0 * 1 
+
+key= 29 	 Calc: same 				 Label: 0 * 1 
+
+key= 30 	 Calc: same 				 Label: 0 * 0 
+
+key= 31 	 Calc: same 				 Label: 0 * 1 
+
+key= 32 	 Calc: same 				 Label: 0 * 1 
+
+key= 33 	 Calc: same 				 Label: 0 * 0 
+
+key= 34 	 Calc: same 				 Label: 1 * 1 
+
+key= 35 	 Calc: 1 * 4 + (1 - 1 - 0) * 2 + 0 				 Label: 10 * 10 
+
+key= 36 	 Calc: same 				 Label: 1 * 1 
+
+key= 37 	 Calc: same 				 Label: 1 * 0 
+
+key= 38 	 Calc: 0 * 4 + (1 - 0 - 0) * 2 + 0 				 Label: 10 * 1 
+
+key= 39 	 Calc: same 				 Label: 1 * 1 
+
+key= 43 	 Calc: same 				 Label: 1 * 0 
+
+key= 44 	 Calc: same 				 Label: 1 * 1 
+
+key= 45 	 Calc: same 				 Label: 0 * 1 
+
+key= 49 	 Calc: same 				 Label: 1 * 0 
+
+key= 50 	 Calc: same 				 Label: 1 * 1 
+
+key= 51 	 Calc: same 				 Label: 0 * 1 
+
+key= 52 	 Calc: same 				 Label: 1 * 0 
+
+key= 53 	 Calc: same 				 Label: 1 * 1 
+
+key= 54 	 Calc: same 				 Label: 0 * 1 
+
+key= 67 	 Calc: same 				 Label: 1 * 0 
+
+key= 68 	 Calc: same 				 Label: 1 * 1 
+
+key= 69 	 Calc: same 				 Label: 0 * 1 
+
+key= 70 	 Calc: same 				 Label: 1 * 1 
+
+key= 71 	 Calc: same 				 Label: 1 * 1 
+
+key= 72 	 Calc: same 				 Label: 0 * 0 
+
+key= 76 	 Calc: same 				 Label: 1 * 1 
+
+key= 77 	 Calc: same 				 Label: 1 * 1 
+
+key= 78 	 Calc: same 				 Label: 0 * 0 
+
+key= 79 	 Calc: same 				 Label: 1 * 1 
+
+key= 80 	 Calc: 0 * 4 + (1 - 0 - 0) * 2 + 0 				 Label: 1 * 10 
+
+key= 81 	 Calc: same 				 Label: 0 * 1 
+
+key= 106 	 Calc: same 				 Label: 1 * 1 
+
+key= 107 	 Calc: same 				 Label: 1 * 1 
+
+key= 108 	 Calc: same 				 Label: 0 * 0 
+
+key= 115 	 Calc: same 				 Label: 1 * 0 
+
+key= 116 	 Calc: same 				 Label: 1 * 1 
+
+key= 117 	 Calc: same 				 Label: 0 * 1 
+
+key= 241 	 Calc: same 				 Label: 0 * 1 
+
+key= 242 	 Calc: same 				 Label: 1 * 1 
+
+key= 243 	 Calc: same 				 Label: 1 * 0 
+
