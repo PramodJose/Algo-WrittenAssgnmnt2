@@ -4,9 +4,9 @@ def mss(arr, low, high):
     
     mid = (low + (high - low)//2)   # same as (low + high) // 2; but prevents overflows.
 
-    (leftlow, lefthigh, leftsum) = mss(arr, low, mid)
-    (rightlow, righthigh, rightsum) = mss(arr, mid + 1, high)
-    (xlow, xhigh, xsum) = cross(arr, low, mid, high)
+    leftlow, lefthigh, leftsum = mss(arr, low, mid)
+    rightlow, righthigh, rightsum = mss(arr, mid + 1, high)
+    xlow, xhigh, xsum = cross(arr, low, mid, high)
 
     if (leftsum > rightsum) and (leftsum > xsum):
         return leftlow, lefthigh, leftsum
@@ -27,9 +27,9 @@ def cross(arr, low, mid, high):
             leftsum = sum
             maxleft = i
 
+    sum = 0
     maxright = mid + 1
     rightsum = arr[maxright]
-    sum = 0
 
     for i in range(mid + 1, high + 1):
         sum += arr[i]
@@ -40,6 +40,6 @@ def cross(arr, low, mid, high):
     return maxleft, maxright, leftsum + rightsum
 
 
-# arr = [1, -4, 3, 4, -2, 6]
-arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+arr = [1, -4, 3, 4, -2, 6]
+# arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 print(mss(arr, 0, len(arr) - 1))
